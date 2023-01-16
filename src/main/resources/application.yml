@@ -1,0 +1,6 @@
+
+spring:
+  data:
+    mongodb:
+      uri: ${{ secrets.MONGO_DB_URI }}
+      database: ${{ secrets.MONGO_DB_DATABASE }}
