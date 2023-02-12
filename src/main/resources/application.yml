@@ -2,5 +2,9 @@
 spring:
   data:
     mongodb:
-      uri: ${{ secrets.MONGO_DB_URI }}
-      database: ${{ secrets.MONGO_DB_DATABASE }}
+      host: localhost
+      port: 27017
+      database: mdb-spring-boot
+      username: root
+      password: example
+      authentication-database: admin
